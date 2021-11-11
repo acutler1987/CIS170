@@ -1,0 +1,223 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*--- basic default styles of the page ---*/
+
+body {
+  background-color: #46738c;
+  font-size: 1em;
+  color: #000;
+}
+
+/*--- content area of web page ---*/
+
+#wrapper {
+  margin: auto;
+  width: 1000px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+}
+
+#social-media {
+  text-align: left;
+}
+
+header {
+  height: 60px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  /*---- header image ----*/
+
+  background-image: url('assets/dawn-3358468_1920.jpg');
+  background-position: center;
+}
+/*--- header picture source: Pixel2013 @ Pixabay.com: https://pixabay.com/photos/dawn-tree-dusk-birds-abendstimmung-3358468/ ---*/
+
+nav {
+  background-color: #bc8ee4;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+main {
+  padding: 10px 20px 10px 20px;
+  background-color: #fff;
+  line-height: 175%;
+}
+
+footer {
+  padding: 20px;
+  background-color: #bc8ee4;
+  line-height: 175%;
+}
+
+/*--------------*/
+
+h1 {
+  color: #0ba4b7;
+  font-family: Georgia, 'Times New Roman', serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', serif;
+  text-align: center;
+}
+
+p {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+dt {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+dd {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+ol {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+ul {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+/*------ default link styles ---------*/
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #181ded;
+}
+
+a:visited {
+  color: #000268;
+}
+
+a:hover {
+  color: #ff0004;
+}
+
+a:active {
+  color: #3cc305;
+}
+
+/*-------- navigation link styles --------*/
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:link {
+  color: #8b61f3;
+}
+
+nav a:visited {
+  color: #3900dd;
+}
+
+nav a:hover {
+  color: #ff6da3;
+}
+
+nav a:active {
+  color: #3dfa82;
+}
+
+/*---- footer style links ------*/
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:link {
+  color: #1bda2b;
+}
+
+footer a:visited {
+  color: #0f7c30;
+}
+
+footer a:hover {
+  color: #c6009a;
+}
+
+footer a:active {
+  color: #5d8b03;
+}
+
+/*----- class styles ----*/
+
+.name {
+  font-weight: bold;
+}
+
+.scam {
+  font-style: italic;
+}
+
+.index-img {
+  float: right;
+  padding: 55px;
+}
+
+.products-img {
+  float: left;
+  padding: 15px;
+}
+
+.marketing-img {
+  float: right;
+}
+
+.contact-img {
+  float: right;
+}
+
+/*----- hero image styles -------*/
+
+#homehero {
+  background-image: url('assets/pyramids-2371501_1920.jpg');
+  height: 300px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* home hero image: TheDigitalArtist @ Pixabay.com: https://pixabay.com/photos/pyramids-egypt-egyptian-ancient-2371501/ */
+}
+
+#productshero {
+  background-image: url('assets/zen-2040340_1920.jpg');
+  height: 300px;
+  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* products hero image: EliasSch @ Pixabay.com: https://pixabay.com/photos/zen-garden-meditation-monk-stones-2040340/ */
+#marketinghero {
+  background-image: url('assets/accounting-balance-bank-notes-2068975.jpg');
+  height: 300px;
+  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* marketing hero image: Alexander Mils @ Pexels.com: https://www.pexels.com/photo/person-holding-100-us-dollar-banknotes-2068975/ */
+#contacthero {
+  background-image: url('assets/adolescent-adult-beautiful-272760.jpg');
+  height: 300px;
+  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* contact hero image: Pixabay @ Pexels.com- https://www.pexels.com/photo/adolescent-adult-beautiful-blond-272760/ */
+}
