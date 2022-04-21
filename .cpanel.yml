@@ -1,0 +1,10 @@
+---
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home/alicqplp/gizawellness.alicecutler.dev/
+        - /bin/cp index.html $DEPLOYPATH
+        - /bin/cp products.html $DEPLOYPATH
+        - /bin/cp marketing.html $DEPLOYPATH
+        - /bin/cp contact.html $DEPLOYPATH
+        - /bin/cp style.css $DEPLOYPATH
+        - /bin/cp -R assets $DEPLOYPATH
